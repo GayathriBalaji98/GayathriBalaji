@@ -125,6 +125,69 @@
   box-sizing: border-box;
 }
 
+.project-item .project-img img {
+  width: 250px;  /* Set a fixed width */
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* Ensures images are cropped proportionally */
+  display: block; /* Ensures no extra spacing */
+  border-radius: 10px; /* Optional: Adds smooth rounded corners */
+}
+
+.contact-links-title,
+.contact-links-item a,
+.resume-title,
+.resume-download p {
+  color: white;
+}
+
+.contact-links-item a:hover {
+  color: #ff9900; /* Change this to your desired hover color */
+}
+
+.contact-links-list {
+  display: flex;
+  justify-content: flex-start; /* Aligns items to the left */
+  gap: 20px; /* Adjusts the space between items */
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-links-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-links-item a {
+  text-decoration: none;
+  color: white; /* Makes the link text white */
+  display: flex;
+  align-items: center;
+}
+
+.contact-links-item img {
+  margin-right: 8px; /* Space between image and text */
+}
+
+.download-resume-btn {
+  text-decoration: none; /* Removes underline from the link */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+
+
+
 a { text-decoration: none; }
 
 li { list-style: none; }
